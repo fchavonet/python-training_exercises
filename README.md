@@ -118,15 +118,11 @@ You can request an API key from this page: [Brickset API key request](https://br
 
 ---
 
-<br>
-
 ```
 ./connect_four.py
 ```
 
 ---
-
-<br>
 
 ```
 ./currency_converter.py
@@ -134,15 +130,11 @@ You can request an API key from this page: [Brickset API key request](https://br
 
 ---
 
-<br>
-
 ```
 ./egg_cooking_timer.py
 ```
 
 ---
-
-<br>
 
 ```
 ./mental_arithmetic.py
@@ -150,15 +142,11 @@ You can request an API key from this page: [Brickset API key request](https://br
 
 ---
 
-<br>
-
 ```
 ./mystery_number.py
 ```
 
 ---
-
-<br>
 
 ```
 ./password_generator.py
@@ -166,15 +154,11 @@ You can request an API key from this page: [Brickset API key request](https://br
 
 ---
 
-<br>
-
 ```
 ./simon.py
 ```
 
 ---
-
-<br>
 
 ```
 ./youtube_video_downloader_(OBSOLETE).py
