@@ -1,6 +1,5 @@
 #!/usr/bin/env python3
 
-import pyperclip
 import secrets
 import string
 
@@ -52,16 +51,17 @@ def main():
 
     while True:
         # Ask the user if they want to generate a new password.
-        ask_to_generate = input(f"\n{RESET}Do you want to generate a new password ({GREEN}YES{RESET}/{RED}NO{RESET}): ").lower().strip()
+        ask_to_generate = input(f"\n{RESET}Do you want to generate a new password ({
+                                GREEN}YES{RESET}/{RED}NO{RESET}): ").lower().strip()
 
-        # Generate and copy a new password if the user chooses "YES".
+        # Generate and display a new password if the user chooses "YES".
         if ask_to_generate == "yes" or ask_to_generate == "y":
             generated_password = generate_password()
-            pyperclip.copy(generated_password)
-            print(f"\nPassword generated and copied to clipboard: {YELLOW}{generated_password}{RESET}")
+            print(f"\nPassword generated: {YELLOW}{generated_password}{RESET}")
         # Exit the program if the user chooses "NO".
         elif ask_to_generate == "no" or ask_to_generate == "n":
-            print(f"\n{YELLOW}Thank you for using this simple password generator.{RESET}\n")
+            print(
+                f"\n{YELLOW}Thank you for using this simple password generator.{RESET}\n")
             break
         else:
             # Prompt the user to provide a valid input if their input is not recognized.
