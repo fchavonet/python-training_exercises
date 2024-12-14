@@ -6,7 +6,7 @@
 
 <details>
         <summary>
-        CLICK TO ENLARGE 😇
+            CLICK TO ENLARGE 😇
         </summary>
         📄 <a href="#description">Description</a>
         <br>
@@ -43,19 +43,19 @@ The main objective of this repository is to document my journey in mastering Pyt
 
 ## 📂 <span id="files-description">Files description</span>
 
-| **FILE**                                 | **DESCRIPTION**                                                       |
-| :--------------------------------------: | :-------------------------------------------------------------------: |
-| `brickset_finder.py`                     | Python script to search for a LEGO® set using the Brickset API.       |
-| `connect_four.py`                        | Python script for a 2 players Connect Four Game.                      |
-| `currency_converter.py`                  | Python script for currency conversion using an API.                   |
-| `egg_cooking_timer.py`                   | Python script for a simple egg cooking timer.                         |
-| `mental_arithmetic.py`                   | Python script for a mental arithmetic quiz game.                      |
-| `mystery_number.py`                      | Python script for a number guessing game.                             |
-| `password_generator.py`                  | Python script for a secure password generator.                        |
-| `simon.py`                               | Python script for a digital version of the Simon game, using numbers. |
-| `youtube_video_downloader_(OBSOLETE).py` | Python script to download a YouTube video from its url (OBSOLETE).    |
-| `requirements.txt`                       | List of Python dependencies for the project.                          |
-| `README.md`                              | The readme file you are currently reading 😉.                         |
+| **FILE**                                 | **DESCRIPTION**                                            |
+| :---------------------------: | :-------------------------------------------------------------------: |
+| `brickset_finder.py`          | Python script to search for a LEGO® set using the Brickset API.       |
+| `connect_four.py`             | Python script for a 2 players Connect Four Game.                      |
+| `currency_converter.py`       | Python script for currency conversion using an API.                   |
+| `egg_cooking_timer.py`        | Python script for a simple egg cooking timer.                         |
+| `mental_arithmetic.py`        | Python script for a mental arithmetic quiz game.                      |
+| `mystery_number.py`           | Python script for a number guessing game.                             |
+| `password_generator.py`       | Python script for a secure password generator.                        |
+| `simon.py`                    | Python script for a digital version of the Simon game, using numbers. |
+| `youtube_video_downloader.py` | Python script to download a YouTube video from its url (OBSOLETE).    |
+| `requirements.txt`            | List of Python dependencies for the project.                          |
+| `README.md`                   | The readme file you are currently reading 😉.                         |
 
 ## 💻 <span id="installation_and_how_to_use">Installation and how to use</span>
 
@@ -161,7 +161,7 @@ You can request an API key from this page: [Brickset API key request](https://br
 ---
 
 ```
-./youtube_video_downloader_(OBSOLETE).py
+./youtube_video_downloader.py
 ```
 
 This script is obsolete due to recent changes in YouTube's platform and the lack of updates to the library it relies on, rendering it unable to function properly.
