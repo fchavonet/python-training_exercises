@@ -116,50 +116,50 @@ For the `brickset_finder.py` script, you need to create a `config.json` file at 
 
 You can request an API key from this page: [Brickset API key request](https://brickset.com/tools/webservices/requestkey).
 
-<br>
+---
 
 ```
 ./connect_four.py
 ```
 
-<br>
+---
 
 ```
 ./currency_converter.py
 ```
 
-<br>
+---
 
 ```
 ./egg_cooking_timer.py
 ```
 
-<br>
+---
 
 ```
 ./mental_arithmetic.py
 ```
 
-<br>
+---
 
 ```
 ./mystery_number.py
 ```
 
-<br>
+---
 
 ```
 ./password_generator.py
 ```
 
-<br>
+---
 
 
 ```
 ./simon.py
 ```
 
-<br>
+---
 
 ```
 ./youtube_video_downloader_(OBSOLETE).py
