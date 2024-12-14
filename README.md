@@ -53,7 +53,7 @@ The main objective of this repository is to document my journey in mastering Pyt
 | `mystery_number.py`                      | Python script for a number guessing game.                             |
 | `password_generator.py`                  | Python script for a secure password generator.                        |
 | `simon.py`                               | Python script for a digital version of the Simon game, using numbers. |
-| `youtube_video_downloader_(OBSOLETE).py` | Python script to download a YouTube video from its url (OBSOLETE)     |
+| `youtube_video_downloader_(OBSOLETE).py` | Python script to download a YouTube video from its url (OBSOLETE).    |
 | `requirements.txt`                       | List of Python dependencies for the project.                          |
 | `README.md`                              | The readme file you are currently reading 😉.                         |
 
@@ -116,33 +116,50 @@ For the `brickset_finder.py` script, you need to create a `config.json` file at 
 
 You can request an API key from this page: [Brickset API key request](https://brickset.com/tools/webservices/requestkey).
 
+<br>
+
 ```
 ./connect_four.py
 ```
+
+<br>
 
 ```
 ./currency_converter.py
 ```
 
+<br>
+
 ```
 ./egg_cooking_timer.py
 ```
+
+<br>
 
 ```
 ./mental_arithmetic.py
 ```
 
+<br>
+
 ```
 ./mystery_number.py
 ```
+
+<br>
 
 ```
 ./password_generator.py
 ```
 
+<br>
+
+
 ```
 ./simon.py
 ```
+
+<br>
 
 ```
 ./youtube_video_downloader_(OBSOLETE).py
