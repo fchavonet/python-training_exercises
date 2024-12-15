@@ -174,7 +174,7 @@ This script is obsolete due to recent changes in YouTube's platform and the lack
 
 ## ♥️ <span id="thanks">Thanks</span>
 
-A big thank you to my friends Pierre and Yoann for taking time out of their busy schedules to give me their feedback.
+- A big thank you to my friends Pierre and Yoann for taking time out of their busy schedules to give me their feedback about this project.
 
 ## 👷 <span id="authors">Authors</span>
 
