@@ -77,7 +77,7 @@ git clone https://github.com/fchavonet/web-simple_reminder.git
 4. Create a virtual environment:
 
 ```
-python -m venv venv
+python3 -m venv venv
 ```
 
 5. Activate the virtual environment:
