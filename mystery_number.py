@@ -27,6 +27,7 @@ def get_valid_attempt():
     Returns:
         int: valid attempt entered by the user.
     """
+
     while True:
         number_str = input("Please enter your attempt: ")
         try:
@@ -43,6 +44,7 @@ def main():
     """
     Main function that runs the Mystery Number guessing game.
     """
+    
     # Print initial instructions.
     print(f"\n{YELLOW}Try to guess the Mystery Number between {NB_MIN} and {NB_MAX} within {TOTAL_ATTEMPTS} attempts.{RESET}\n")
 

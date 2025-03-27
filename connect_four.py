@@ -36,6 +36,7 @@ def print_instructions():
     """
     Prints the game instructions.
     """
+
     print(f"\n{YELLOW}Welcome to this 2-player Connect Four game!")
     print(f"To win, connect four of your pieces in a row, column, or diagonal.{RESET}\n")
 
@@ -47,6 +48,7 @@ def create_board():
     Returns:
         list: a 2D list representing the game board.
     """
+
     board = []
     for _ in range(ROWS):
         board.append([EMPTY] * COLS)
@@ -60,6 +62,7 @@ def print_board(board):
     Args:
         board (list): a 2D list representing the game board.
     """
+
     print(f"    {'     '.join(str(i + 1) for i in range(COLS))}")
     print(f"{BLUE} +{'-----+' * COLS}{RESET}")
 
@@ -81,6 +84,7 @@ def is_valid_column(board, col):
     Returns:
         bool: True if the column is valid, False otherwise.
     """
+
     return board[0][col] == EMPTY
 
 
@@ -95,6 +99,7 @@ def get_next_open_row(board, col):
     Returns:
         int: the row index where the piece can be placed.
     """
+
     for row in range(ROWS - 1, -1, -1):
         if board[row][col] == EMPTY:
             return row
@@ -109,6 +114,7 @@ def drop_piece(board, col, piece):
         col (int): the column index where the piece will be placed.
         piece (str): the piece to place on the board.
     """
+
     row = get_next_open_row(board, col)
 
     for i in range(row + 1):
@@ -137,6 +143,7 @@ def winning_move(board, piece):
     Returns:
         bool: True if the player has won, False otherwise.
     """
+
     # Check horizontal locations for a win
     for col in range(COLS - 3):
         for row in range(ROWS):
@@ -171,6 +178,7 @@ def get_valid_column():
     Returns:
         int: the index of the chosen column.
     """
+
     while True:
         try:
             col = int(input(f"Choose a column (1-{COLS}): "))
@@ -193,6 +201,7 @@ def is_full(board):
     Returns:
         bool: True if the board is full, False otherwise.
     """
+
     for col in range(COLS):
         if is_valid_column(board, col):
             return False
@@ -203,6 +212,7 @@ def main():
     """
     Main function that executes the Connect Four game.
     """
+    
     clear_screen()
 
     # Print initial instructions.

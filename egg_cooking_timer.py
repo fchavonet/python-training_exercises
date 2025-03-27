@@ -22,6 +22,7 @@ def program_selection():
     Returns:
         str: the user's choice.
     """
+
     while True:
         user_choice = input("Choose a program: ")
         if user_choice in ["1", "2", "3"]:
@@ -39,6 +40,7 @@ def cooking_time(user_choice):
     Returns:
         int: the cooking time in seconds.
     """
+
     if user_choice == "1":
         print(f"\n{BLUE}You've selected the egg cooking timer for soft-boiled eggs, timer starts for 3 minutes.{RESET}\n")
         return 3 * 60
@@ -57,6 +59,7 @@ def print_remaining_time(duration):
     Args:
         duration (int): the remaining time in seconds.
     """
+
     min = duration // 60
     sec = duration - min * 60
     print(f"{GREEN}{min:02d}:{sec:02d}{RESET}")
@@ -66,6 +69,7 @@ def main():
     """
     Main function that runs the egg timer program.
     """
+    
     # Print initial instructions.
     print(f"\n{YELLOW}EGG COOKING TIMER")
     print(f"=" * 17)

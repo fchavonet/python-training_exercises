@@ -18,6 +18,7 @@ def clear_screen():
     """
     Clears the console screen.
     """
+
     if (os.name == "posix"):
         os.system("clear")
     else:
@@ -28,6 +29,7 @@ def print_instructions():
     """
     Prints game instructions.
     """
+
     clear_screen()
     print(f"{YELLOW}Try to remember and repeat the number sequence correctly.{RESET}\n")
     print("Press ENTER to start...", end="")
@@ -44,6 +46,7 @@ def generate_random_sequence(length):
     Returns:
     - str: the generated random number sequence.
     """
+
     sequence = ""
     for i in range(length):
         sequence += str(random.randint(0, 9))
@@ -57,6 +60,7 @@ def print_sequence(sequence):
     Parameters:
     - sequence (str): the number sequence to be printed.
     """
+
     print(f"{MAGENTA}Remember the sequence: {RESET}")
     print(sequence)
 
@@ -65,6 +69,7 @@ def main():
     """
     Main function that runs the Simon game
     """
+    
     score = 0
 
     # Generate the first sequence of numbers.

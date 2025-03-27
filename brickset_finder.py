@@ -19,6 +19,7 @@ def main():
     Raises:
         ValueError: if the API key is not found in the configuration file.
     """
+
     # Load API key from the configuration file.
     with open("./config.json") as config_file:
         config = json.load(config_file)
@@ -54,6 +55,7 @@ def main():
         Returns:
             str: the cleaned string with curly braces removed.
         """
+        
         if isinstance(value, str):
             return value.replace("{", "").replace("}", "")
         return value

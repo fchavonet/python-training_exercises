@@ -19,6 +19,7 @@ def get_valid_amount():
     Returns:
         float: the valid amount entered by the user.
     """
+
     while True:
         amount = input("Enter amount to convert: ")
 
@@ -40,6 +41,7 @@ def get_valid_currency(message):
     Returns:
         str: the valid currency code entered by the user.
     """
+
     while True:
         currency = input(message).upper()
 
@@ -68,6 +70,7 @@ def convert_currency(amount, base_currency, target_currency):
     Returns:
         float or None: the converted amount if successful, otherwise None.
     """
+
     try:
         response = requests.get(f"https://api.exchangerate-api.com/v4/latest/{base_currency}")
         data = response.json()
@@ -86,6 +89,7 @@ def print_top_currencies():
     """
     Print a list of top 5 currencies along with their currency codes.
     """
+
     top_currencies = [
         ("US Dollar", "USD"),
         ("Euro", "EUR"),
@@ -105,6 +109,7 @@ def main():
     """
     Main function that executes the currency conversion program.
     """
+    
     # Print initial instructions.
     print(f"\n{YELLOW}Try to convert an amount!{RESET}\n")
     print_top_currencies()

@@ -24,6 +24,7 @@ def randomize_operator():
     Returns:
         str: the selected operator as a string.
     """
+
     operator = random.randint(0, 2)
 
     if operator == 0:
@@ -43,6 +44,7 @@ def generate_random_arithmetic_question():
     Returns:
         bool: `True` if the user's answer is correct, `False` otherwise.
     """
+
     while True:
         a = random.randint(NB_MIN, NB_MAX)
         b = random.randint(NB_MIN, NB_MAX)
@@ -73,6 +75,7 @@ def main():
     """
     Main function that runs the arithmetic quiz game.
     """
+    
     # Print initial instructions.
     print(f"\n{YELLOW}Try to solve as many arithmetic questions as you can out of {NB_QUESTIONS} total.{RESET}\n")
 

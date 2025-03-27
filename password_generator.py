@@ -20,6 +20,7 @@ def generate_password():
     Returns:
         str: the generated password.
     """
+
     # Define the alphabet for generating the password.
     alphabet = string.ascii_letters + string.digits
     # Define the length and the number of segments in the password.
@@ -46,6 +47,7 @@ def main():
     """
     Main function that runs the password generator program.
     """
+    
     print(f"\n{YELLOW}PASSWORD GENERATOR")
     print("=" * 18)
 

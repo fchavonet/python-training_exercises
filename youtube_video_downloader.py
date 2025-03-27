@@ -75,6 +75,7 @@ def main():
     """
     Main function to prompt the user for a YouTube video URL and download it.
     """
+    
     print(f"\n{YELLOW}YOUTUBE VIDEO DOWNLOADER")
     print("=" * 24)
 
