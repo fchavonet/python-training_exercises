@@ -21,10 +21,10 @@ This repository contains a collection of Python scripts created as part of my tr
 ## File Description
 
 | **FILE**                      | **DESCRIPTION**                                                       |
-| :---------------------------: | :-------------------------------------------------------------------: |
+| :---------------------------: | --------------------------------------------------------------------- |
 | `assets`                      | Contains the resources required for the repository.                   |
 | `brickset_finder.py`          | Python script to search for a LEGO® set using the Brickset API.       |
-| `connect_four.py`             | Python script for a two players Connect Four Game.                      |
+| `connect_four.py`             | Python script for a two players Connect Four Game.                    |
 | `currency_converter.py`       | Python script for currency conversion using an API.                   |
 | `egg_cooking_timer.py`        | Python script for a simple egg cooking timer.                         |
 | `mental_arithmetic.py`        | Python script for a mental arithmetic quiz game.                      |
