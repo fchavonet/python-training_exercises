@@ -1,35 +1,10 @@
-<img height="50px" align="right" src="https://raw.githubusercontent.com/fchavonet/fchavonet/main/assets/images/logo-python.png" alt="Python logo">
+# Training Exercices
 
-# Training exercices
-
-## 🔖 Table of contents
-
-<details>
-    <summary>
-        CLICK TO ENLARGE 😇
-    </summary>
-    📄 <a href="#description">Description</a>
-    <br>
-    🎓 <a href="#objectives">Objectives</a>
-    <br>
-    🔨 <a href="#tech-stack">Tech stack</a>
-    <br>
-    📂 <a href="#files-description">Files description</a>
-    <br>
-    💻 <a href="#installation_and_how_to_use">Installation and how to use</a>
-    <br>
-    🔧 <a href="#whats-next">What's next?</a>
-    <br>
-    ♥️ <a href="#thanks">Thanks</a>
-    <br>
-    👷 <a href="#authors">Authors</a>
-</details>
-
-## 📝 <span id="description">Description</span>
+## Description
 
 This repository contains a collection of Python scripts created as part of my training and experimentation with the language. Each script represents a practical exercise aimed at improving my programming skills, testing concepts, or exploring the functionality of specific libraries. It serves as a hands-on approach to learning, providing a space to apply theoretical knowledge and develop real-world solutions.
 
-## 🎓 <span id="objectives">Objectives</span>
+## Objectives
 
 - Document my learning journey with Python.
 - Practice writing clean, functional, and maintainable code.
@@ -37,25 +12,19 @@ This repository contains a collection of Python scripts created as part of my tr
 - Apply theoretical knowledge through hands-on exercises.
 - Build a solid foundation for tackling more advanced projects in the future.
 
-## 🔨 <span id="tech-stack">Tech stack</span>
+## Tech Stack
 
-<p align="left">
-    <img src="https://img.shields.io/badge/PYTHON-3776ab?logo=python&logoColor=white&style=for-the-badge" alt="Python badge">
-    <img src="https://img.shields.io/badge/SHELL SCRIPT-000000?logo=gnu-bash&logoColor=white&style=for-the-badge" alt="Shell Script badge">
-    <img src="https://img.shields.io/badge/JSON-000000?logo=json&logoColor=white&style=for-the-badge" alt="JSON badge">
-    <img src="https://img.shields.io/badge/GIT-f05032?logo=git&logoColor=white&style=for-the-badge" alt="Git badge">
-    <img src="https://img.shields.io/badge/GITHUB-181717?logo=github&logoColor=white&style=for-the-badge" alt="GitHub badge">
-    <img src="https://img.shields.io/badge/MARKDOWN-000000?logo=markdown&logoColor=white&style=for-the-badge" alt="Markdown badge">
-    <img src="https://img.shields.io/badge/VS CODE-007acc?logo=data:image/svg+xml;base64,PCFET0NUWVBFIHN2ZyBQVUJMSUMgIi0vL1czQy8vRFREIFNWRyAxLjEvL0VOIiAiaHR0cDovL3d3dy53My5vcmcvR3JhcGhpY3MvU1ZHLzEuMS9EVEQvc3ZnMTEuZHRkIj4KDTwhLS0gVXBsb2FkZWQgdG86IFNWRyBSZXBvLCB3d3cuc3ZncmVwby5jb20sIFRyYW5zZm9ybWVkIGJ5OiBTVkcgUmVwbyBNaXhlciBUb29scyAtLT4KPHN2ZyBmaWxsPSIjZmZmZmZmIiB3aWR0aD0iODAwcHgiIGhlaWdodD0iODAwcHgiIHZpZXdCb3g9Ii0wLjUgMCAyNCAyNCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KDTxnIGlkPSJTVkdSZXBvX2JnQ2FycmllciIgc3Ryb2tlLXdpZHRoPSIwIi8+Cg08ZyBpZD0iU1ZHUmVwb190cmFjZXJDYXJyaWVyIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiLz4KDTxnIGlkPSJTVkdSZXBvX2ljb25DYXJyaWVyIj4KDTxwYXRoIGQ9Im0xNy44NTggMjMuOTk4LTkuNzcxLTkuNDg0LTUuODY2IDQuNDY1LTIuMjIxLTEuMTE1di0xMS43MTlsMi4yMzQtMS4xMjEgNS44NyA0LjQ2OSA5Ljc0Ny05LjQ5MyA1LjU4NyAyLjIzOXYxOS41MzFsLTUuNTc5IDIuMjN6bS0uNTYzLTE2LjE4Ni01LjU3NyA0LjE3MyA1LjU4IDQuMjAyem0tMTQuNTA3IDEuNjg1djUuMDE2bDIuNzg3LTIuNTI1eiIvPgoNPC9nPgoNPC9zdmc+&logoColor=white&style=for-the-badge" alt="VS Code badge">
-</p>
+![Python badge](https://img.shields.io/badge/PYTHON-3776ab?logo=python&logoColor=white&style=for-the-badge)
+![Bash badge](https://img.shields.io/badge/BASH-4eaa25?logo=gnubash&logoColor=white&style=for-the-badge)
+![JSON badge](https://img.shields.io/badge/JSON-000000?logo=json&logoColor=white&style=for-the-badge)
 
-## 📂 <span id="files-description">Files description</span>
+## File Description
 
 | **FILE**                      | **DESCRIPTION**                                                       |
 | :---------------------------: | :-------------------------------------------------------------------: |
 | `assets`                      | Contains the resources required for the repository.                   |
 | `brickset_finder.py`          | Python script to search for a LEGO® set using the Brickset API.       |
-| `connect_four.py`             | Python script for a 2 players Connect Four Game.                      |
+| `connect_four.py`             | Python script for a two players Connect Four Game.                      |
 | `currency_converter.py`       | Python script for currency conversion using an API.                   |
 | `egg_cooking_timer.py`        | Python script for a simple egg cooking timer.                         |
 | `mental_arithmetic.py`        | Python script for a mental arithmetic quiz game.                      |
@@ -67,9 +36,9 @@ This repository contains a collection of Python scripts created as part of my tr
 | `.gitignore`                  | Specifies files and folders to be ignored by Git.                     |
 | `README.md`                   | The README file you are currently reading 😉.                         |
 
-## 💻 <span id="installation_and_how_to_use">Installation and how to use</span>
+## Installation & Usage
 
-**Installation:**
+### Installation
 
 1. Clone this repository:
     - Open your preferred Terminal.
@@ -77,10 +46,10 @@ This repository contains a collection of Python scripts created as part of my tr
     - Run the following command:
 
 ```
-git clone https://github.com/fchavonet/web-simple_reminder.git
+git clone https://github.com/fchavonet/python-training_exercises.git
 ```
 
-2. Open the repository you've just cloned.
+2. Open the cloned repository.
 
 3. Create a virtual environment:
 
@@ -94,13 +63,15 @@ python3 -m venv venv
 source venv/bin/activate
 ```
 
+> On Windows: `venv\Scripts\activate`.
+
 5. Install dependencies:
 
 ```
 pip install -r requirements.txt
 ```
 
-**How to use:**
+### Usage
 
 1. Run one of these commands:
 
@@ -204,15 +175,15 @@ You can request an API key from this page: [Brickset API key request](https://br
 
 ---
 
-## 🔧 <span id="whats-next">What's next ?</span>
+## What's Next?
 
 - Doing more exercises!
 
-## ♥️ <span id="thanks">Thanks</span>
+## Thanks
 
 - A big thank you to my friends Pierre and Yoann, always available to test and provide feedback on my projects.
 
-## 👷 <span id="authors">Authors</span>
+## Author(s)
 
 **Fabien CHAVONET**
-- Github: [@fchavonet](https://github.com/fchavonet)
+- GitHub: [@fchavonet](https://github.com/fchavonet)
